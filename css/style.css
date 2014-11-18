@@ -1,0 +1,100 @@
+.chat {
+    border: 2px solid goldenrod;
+    width: 580px;
+    height: 460px;
+}
+
+.chat-header {
+    background-color: goldenrod;
+    height: 40px;
+    border-bottom: 2px solid goldenrod;
+}
+
+.chat-header h1 {
+    font-size: 14pt;
+    font-weight: bold;
+    margin: 0;
+}
+
+.chat-info {
+    height: 40px;
+    border-bottom: 2px solid #C8C5B9;
+}
+
+.chat-info-text {
+    background-color: #9c988a;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.chat-content {
+    height: 340px;
+    border-bottom: 2px solid #C8C5B9;
+}
+
+.chat-main-area {
+    height: 280px;
+    padding: 5px 0px 0px 5px;
+}
+
+.chat-messages {
+    background-color: #fff;
+    width: 420px;
+    height: 260px;
+}
+
+.chat-answer-area {
+    height: 40px;
+    padding: 0 5px;
+}
+
+.chat-answer-text {
+    width: 420px;
+    height: 50px;
+    background-color: #fff;
+    display: inline-block;
+    float: left;
+}
+
+.chat-answer-button-wrap {
+    vertical-align: middle;
+    height: 50px;
+    float: left;
+    padding: 5px 0px 0px 20px;
+}
+
+.chat-button-send {
+    width: 100px;
+    height: 40px;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 0px;
+}
+
+.chat-footer {
+    height:34px;
+}
+
+.chat-gradient-billing-orange {
+    background: #f7e3aa; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f7e3aa 0%, #ffffff 5%, #f6cb53 49%, #f4bb20 51%, #f5cf68 83%, #f5d781 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7e3aa), color-stop(5%,#ffffff), color-stop(49%,#f6cb53), color-stop(51%,#f4bb20), color-stop(83%,#f5cf68), color-stop(100%,#f5d781)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f7e3aa 0%,#ffffff 5%,#f6cb53 49%,#f4bb20 51%,#f5cf68 83%,#f5d781 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f7e3aa 0%,#ffffff 5%,#f6cb53 49%,#f4bb20 51%,#f5cf68 83%,#f5d781 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f7e3aa 0%,#ffffff 5%,#f6cb53 49%,#f4bb20 51%,#f5cf68 83%,#f5d781 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f7e3aa 0%,#ffffff 5%,#f6cb53 49%,#f4bb20 51%,#f5cf68 83%,#f5d781 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7e3aa', endColorstr='#f5d781',GradientType=0 ); /* IE6-9 */
+}
+
+.chat-gradient-billing-gray {
+    background: rgb(243,243,240); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(243,243,240,1) 0%, rgba(224,223,214,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(243,243,240,1)), color-stop(100%,rgba(224,223,214,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(243,243,240,1) 0%,rgba(224,223,214,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(243,243,240,1) 0%,rgba(224,223,214,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(243,243,240,1) 0%,rgba(224,223,214,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(243,243,240,1) 0%,rgba(224,223,214,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f0', endColorstr='#e0dfd6',GradientType=0 ); /* IE6-9 */
+
+}
